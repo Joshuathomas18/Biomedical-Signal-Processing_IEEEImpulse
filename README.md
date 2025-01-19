@@ -54,6 +54,7 @@ Improve upon the baseline model by experimenting with advanced techniques, hyper
 ## Task 5: Interpretability of the Best Model
 
 Ensure transparency and trust by making your model explainable. This task focuses on understanding which EEG channels are most influential in the model's predictions, which is vital for clinical acceptance.
+![Screenshot 2025-01-19 140231](https://github.com/user-attachments/assets/da788597-48d4-4b70-8ad2-4ee6350197f0)
 
 
 - [**Task 5: Interpretability of the Best Model**](https://github.com/Joshuathomas18/Biomedical-Signal-Processing_IEEImpulse/blob/main/task5.ipynb)
