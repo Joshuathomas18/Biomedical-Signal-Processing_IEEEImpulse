@@ -28,5 +28,62 @@ domain, help identify potential signal patterns that can serve as features for
 machine learning models in future classification tasks.
 
 
-[Link Text](https://github.com/Joshuathomas18/Biomedical-Signal-Processing_IEEImpulse/blob/main/task1.ipynb)
+[Task 1: Basic Analysis of EEG Signals](https://github.com/Joshuathomas18/Biomedical-Signal-Processing_IEEImpulse/blob/main/task1.ipynb)
+
+5 Extracting Frequency Domain Features
+In this task, you will extract frequency-based features from the EEG signals.
+These features provide valuable insights into the signal’s frequency content,
+which is critical for understanding brain activity and for classification tasks in
+biomedical signal processing. The Fourier Transform is a mathematical technique that converts a signal from its time-domain representation into the frequency domain. It breaks down a time-series signal into its constituent sinusoidal components (sines and cosines), revealing the different frequencies present
+within the signal.
+Another technique is Wavelet Decomposition, which overcomes the limitation
+of Fourier transform by providing both time and frequency information. It involves breaking down a signal into smaller wavelets—short waves localized in
+3
+both time and frequency. This allows for the analysis of non-stationary signals,
+which exhibit changes in frequency content over time, as is often the case with
+biomedical signals like EEG.
+
+
+
+6 Building the Baseline Model
+In this task, you need to build a baseline machine learning model using the
+Fourier features extracted from the EEG signals as well as Zero Crossing Rate.
+The purpose of the baseline model is to establish an initial performance metric,
+which can be used as a reference for further improvement.
+
+
+
+7 Building the Best Model
+In this task, participants need to build the best performing model by experimenting with various advanced techniques to improve upon the baseline model
+developed earlier. The focus will be on optimizing the feature set, tuning hyperparameters, and possibly using more sophisticated models beyond the baseline
+SVM.
+
+
+
+
+8 Interpretability of the Best Model
+Explainability is crucial in healthcare applications to ensure trust, accountability, and actionable insights for medical professionals. It is not sufficient for models to achieve high accuracy; they must also provide transparency about their decision-making processes. This section focuses on understanding the model’s reliance on different EEG channels for each class prediction.
+
+
+9 Denoising
+In real-world applications, data collected from sensors or medical instruments,
+such as EEG signals, are often noisy due to various factors like environmental
+interference, hardware limitations, and motion artifacts. These imperfections in
+the data can significantly degrade the performance of tasks, such as classification
+and anomaly detection, by masking the underlying signal of interest. Therefore,
+effective signal denoising is a critical step in preprocessing, ensuring that the
+data used for analysis is as clean and representative as possible.
+
+10 Generative Modeling Techniques for Synthetic
+EEG Data
+Modern generative algorithms have revolutionized the ability to generate realistic synthetic data. In the context of EEG signal processing, these models
+can be employed to generate class-wise synthetic EEG signals that mimic the
+statistical properties of real data. This synthetic data can be used to augment
+training datasets, helping to improve the performance of models in downstream
+tasks such as classification. By enabling the generation of diverse datasets, generative approaches provide an opportunity to address problems in a dataset and
+enhance model robustness, ultimately improving generalization to unseen data.
+In the biomedical domain, where annotated data is often scarce and expensive
+to collect, generative modeling becomes crucial for overcoming data limitations
+and advancing model development
+
 
