@@ -27,10 +27,6 @@ insights into the signal characteristics. These metrics, derived from the time
 domain, help identify potential signal patterns that can serve as features for
 machine learning models in future classification tasks.
 
-<pre>
-<strong style="background-color:#2d2d2d; color:#ffffff; padding: 8px; border-radius: 6px;">📄 main.py</strong>
-<code>
-[Link Text](URL)
 
-</code>
-</pre>
+[Link Text](https://github.com/Joshuathomas18/Biomedical-Signal-Processing_IEEImpulse/blob/main/task1.ipynb)
+
